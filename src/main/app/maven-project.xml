@@ -52,4 +52,5 @@ http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/cor
 			connector-ref="Active_MQ" doc:name="JMS" />
 		<logger message="#[message.payload]" level="INFO" doc:name="Logger" />
 	</flow>
+	
 </mule>
